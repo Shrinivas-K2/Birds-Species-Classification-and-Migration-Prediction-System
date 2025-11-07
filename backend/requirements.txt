@@ -1,0 +1,24 @@
+# Web Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# Deep Learning - PyTorch (for EfficientNet model)
+# Note: Install torch and torchvision separately if you encounter issues
+# CPU: pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+# GPU: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Deep Learning - TensorFlow/Keras (for migration model)
+tensorflow>=2.13.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# Numerical Computing
+numpy>=1.24.0
+
+# Data Validation (comes with FastAPI but listed for clarity)
+pydantic>=2.0.0
+
